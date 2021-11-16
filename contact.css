@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(3, 15, 56, 1);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 215px; 
+    z-index: 10;
+}
+.left{
+    margin: 50px;
+    padding-left: 110px;
+    display: flex;
+    align-items: flex-start;
+}
+.left svg{
+    width: 107px;
+    height: 59px;
+}
+.left div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.left div .one{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.left div .two{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+    padding-right: 100px;
+}
+.right .links ul{
+    display: flex;
+}
+.right .links ul li{
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.right .links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.right .media{
+    margin: 3px;
+}
+.right .media ul{
+    padding: 0px;
+    display: flex;
+}
+.right .media ul li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.right .media ul li i{
+    color: white;
+}
+.right .links ul li a:hover{
+    color: #05b9f2;
+}
+.right .links ul li .active{
+    color: #05b9f2;
+}
+footer{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(3, 15, 56, 1);
+    border-top: solid 1px;
+    border-color: rgba(255, 255, 255, 0.116);
+}
+footer div{
+    margin-top: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer .social ul{
+    display: flex;
+    padding: 0px;
+}
+footer .social ul li{
+    list-style-type: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer .social ul li a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background:rgb(7, 22, 91, 1);
+}
+main .one {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(3, 15, 56, 1);
+    text-align: center;
+}
+main .one h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 88px;
+    color: #05b9f2;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+main .one p{
+    width: 940px;
+    padding-left: 500px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+main .one div{
+    padding-bottom: 100px;
+}
+.two{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+.two .image{
+    height: 950px;
+    width: 50%;
+    background-image: url(./assets/images/ea71bb_1261fea1765e413f9ad22cb9c974b05e_mv2_d_4762_3175_s_4_2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.two .form{
+    width: 500px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.two .form p{
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+
+}
+.two .names{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.two .form .Nameinput{
+    width: 240px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px ;
+    border-color: white;
+    margin-right: 10px;
+}
+.two .form .LastName{
+    width: 240px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px ;
+    border-color: white;
+    margin-left: 10px;
+}
+.names label{
+    font-size: 15px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.form .mail{
+    margin-top: 20px;
+    width: 100%;
+}
+.form .mail label{
+    font-size: 15px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.form .mail .Email{
+    width: 500px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px ;
+    border-color: white;
+}
+.form .textmessage{
+    margin-top: 20px;
+    width: 100%;
+}
+.form .textmessage label{
+    font-size: 15px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.form .textmessage .message{
+    width: 500px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px ;
+    border-color: white;
+}
+.form button{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    border: solid white 1px;
+}
+.form button:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
